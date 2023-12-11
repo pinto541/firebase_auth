@@ -35,7 +35,7 @@ useEffect(()=>{
         registerPassword
       );
       console.log(user);
-      window.location.href = 'https://www.google.com';
+      window.location.href = 'http://127.0.0.1:5000';
     } catch (error) {
       console.error(error.message);
       setError(error.message);
